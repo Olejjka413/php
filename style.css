@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+body {	
+	font-family: 'Roboto', sans-serif;
+	background-color: #e8e8e8;
+	background-image: url('img/back.png');
+	background-repeat: no-repeat;
+	background-position: right 30em;
+	background-attachment: scroll;
+	background-size: 55%;
+	padding: 0;
+	margin:0;
+	min-width: 900px;
+	max-width: 1920px;
+	height: 100%;
+}
+
+.top {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #f05454;
+	justify-content: space-around;
+	align-content: space-between;
+	align-items: center;
+	padding-left: 20px;
+	
+}
+#title{
+	padding-left: 30px;
+	color: #222831;
+
+}
+.info {
+	margin-left:  auto;
+	padding-right: 50px;
+	display: inline-flex;
+	align-items: center;
+}
+#kanban{
+	padding-left: 20px;
+}
+
+a.activelink{
+	color: black;
+	font-weight: bold;
+}
+
+main {
+	padding-left: 150px;
+	padding-right: 100px;
+}
+footer {
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	
+}
+img {margin: 20px;}
+.bottom {
+	background-color: #222831;
+	color : #e8e8e8;
+	font-weight: 300;
+	text-align: center;
+	padding : 10px;
+	position: relative;
+	min-height: 100%;
+	
+
+}
+.pic {margin: 50px;
+}
+table {
+	margin-bottom: 100px;
+}
+table *{border: solid black 2px;
+text-align: center;
+padding: 10px;}
+
+h1{
+	text-align: center;
+	padding: 20px;
+}
+h2{margin: 20px;}
+
+svg{
+	padding-left: 65px;}
+	* {
+	margin: 0;
+	padding: 0;
+}
